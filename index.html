@@ -11,12 +11,21 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+        .center{
+            text-align: center;
+        }
+        .cabecera{
+            background-color: #3e6e9e;
+            padding: 50px;
+            margin-left: 50px;
+           margin-right: 50px;
+        }
         h1 {
             color: #2c3e50;
             text-align: center;
         }
         h2 {
-            border-bottom: 2px solid #2c3e50;
+            border-bottom: 2px solid #3e6e9e;
             padding-bottom: 5px;
         }
         ul {
@@ -30,32 +39,40 @@
             color: #f39c12;
             text-decoration: none;
         }
-        div{
+        /*crea un hover*/
+        .hover{
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+           margin: 20px;
+           margin-left: 50px;
+           margin-right: 50px;
         }
-        div:hover{
+        .hover:hover{
             background-color:rgb(173, 173, 173);
         }
     </style>
 </head>
 <body>
-    <h1>YASMINA BAHLAQUI BEHLAQUI</h1>
-    <p><strong>Programadora | Desarrollo Web | Diseño</strong></p>
-    
+    <div class="cabecera">
+        <h1>YASMINA BAHLAQUI BEHLAQUI</h1>
     <img src="mia.jpg" alt="Foto de Yasmina" style="display: block; margin: 0 auto; width: 150px; border-radius: 50%;">
-    <div>
+   <!--centralo--> <p class="center"><strong>Programadora | Desarrollo Web | Diseño</strong></p>
+    </div>
+    
+    <div class="hover">
         <h2>Contacto</h2>
     <ul>
         <li><strong>Teléfono:</strong> 698963816</li>
         <li><strong>Email:</strong> yasminabahlagui61@gmail.com</li>
-        <li><strong>Dirección:</strong> C/Diego Tortosa</li>
+        <li><strong>Dirección:</strong> Murcia/Cieza</li>
         <li><strong>GitHub:</strong> <a href="https://github.com/YasminaBBh">YasminaBBh</a></li>
+      <!--agrega enlace-->  <li><strong>Linkedln:</strong> <a href="https://es.linkedin.com/in/yasmina-bahlagui-550027324">Yasmina Bahlagui</a></li>
     </ul>
     </div>
     
-    <div>
+    <div class="hover">
         <h2>Perfil</h2>
-    <p>Una chica dispuesta a aprender y superar todos los obstáculos en el camino.</p>
+    <p>Una chica dispuesta a aprender y superar todos los obstáculos en el camino.Para crecer y mejorar en todos los aspectos corregir errores y mejorar</p>
     
     <h2>Formación</h2>
     <ul>
@@ -64,7 +81,7 @@
     </ul>
     </div>
     
-    <div>
+    <div class="hover">
         <h2>Experiencia</h2>
     <ul>
         <li>Ayudante en campo - Recolecta de oliva</li>
@@ -74,7 +91,7 @@
     </ul>
     </div>
     
-    <div>
+    <div class="hover">
         <h2>Cualidades</h2>
     <ul>
         <li>Facilidad en trabajo con equipo</li>
@@ -83,7 +100,7 @@
     </ul>
     </div>
     
-    <div>
+    <div class="hover">
         <h2>Habilidades</h2>
     <ul>
         <li>Java, JavaScript, PHP, HTML, SQL, C++, CSS, Bootstrap</li>
